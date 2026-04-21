@@ -90,6 +90,7 @@ jobs:
                 languages: ${{ matrix.language }}
                 # TODO#8: enable extended security + quality query suites
                 queries: security-extended,security-and-quality
+                
 
             # TODO#9: add analyze step
             - name: Perform CodeQL Analysis
